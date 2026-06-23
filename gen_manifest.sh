@@ -21,9 +21,9 @@ TMP="$(mktemp)"
         | sed 's#^\./##' | LC_ALL=C sort \
         | while IFS= read -r d; do echo "D:$d"; done
 
-    # Files, sorted. Skip .git, Manifest, this script.
+    # Files, sorted. Skip .git and this script (but keep Manifest itself listed).
     find . -type f -not -path './.git/*' \
-        ! -name "$OUT" ! -name "$(basename "$0")" \
+        ! -name "$(basename "$0")" \
         | sed 's#^\./##' | LC_ALL=C sort \
         | while IFS= read -r f; do
             md5="$(md5sum "$f" | cut -d' ' -f1)"

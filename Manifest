@@ -1,5 +1,5 @@
 V:0
-T:1782233776
+T:1782234417
 D:dolphin
 D:dolphin/L1_Boxing_128x64
 D:dolphin/L1_Furippa1_128x64
@@ -21,6 +21,7 @@ D:nfc
 D:nfc/assets
 D:subghz
 D:subghz/assets
+F:ea74b51b6176353c1589538536ece2dd:20316:Manifest
 F:d37be8444102ec5cde5fe3a85d55b57d:481:dolphin/L1_Boxing_128x64/frame_0.bm
 F:54fb07443bc153ded9589b74d23b4263:461:dolphin/L1_Boxing_128x64/frame_1.bm
 F:e007afe130d699c715b99ce8e5b407bd:531:dolphin/L1_Boxing_128x64/frame_2.bm
